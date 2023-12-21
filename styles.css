@@ -1,0 +1,55 @@
+body {
+    background-color: #362551;
+    font-family: 'Roboto', sans-serif;       
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 45px auto;
+    padding: 100px;
+}
+
+.tag-line {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.side-bar {
+    position: absolute;
+    top: 325px;
+    left: 750px;
+    padding: 50px 25px;
+    background-color: #99405c;
+    border-radius: 10px;
+    transform: rotate(-5deg);
+    color: white;
+}
