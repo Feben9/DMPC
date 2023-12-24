@@ -35,9 +35,13 @@ img {
     background-color: white;
     max-width: 800px;
     margin: 45px auto;
+    margin-top: 75px;
     padding: 50px;
-    border: 30px solid rgba(145, 152, 229, 0.3);
-    border-radius: 7px;
+    /*border: 30px solid rgba(145, 152, 229, 0.3);*/
+    border-radius: 10px;
+    box-shadow: 0 0 0 30px rgba(145, 152, 229, 0.2);
+    outline: 1px solid white;
+    outline-offset: 30px;
 }
 
 .tag-line {
